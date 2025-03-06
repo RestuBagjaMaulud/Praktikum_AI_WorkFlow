@@ -10,23 +10,23 @@ Proyek ini berhasil menerapkan AI untuk menganalisis data penjualan dan stok di 
 
 # Instruksi Cara Menjalankan Kode
 Persiapan
-    1. Buka Google Colab – Pergi ke Google Colab dan buat notebook baru.
-    2. Upload Dataset – Jika belum ada dataset, buat file CSV bernama data_penjualan.csv dengan format:
-        - Kolom: Tanggal, Produk, Jumlah Terjual, Stok, Harga Satuan
-        - Minimal 10 baris data
+1. Buka Google Colab – Pergi ke Google Colab dan buat notebook baru.
+2. Upload Dataset – Jika belum ada dataset, buat file CSV bernama data_penjualan.csv dengan format:
+- Kolom: Tanggal, Produk, Jumlah Terjual, Stok, Harga Satuan
+- Minimal 10 baris data
 
 Langkah-langkah
-    1. Baca Data di Google Colab
-        Pada tahap ini, data penjualan yang dikumpulkan dalam format CSV akan dibaca menggunakan library pandas. Data ini akan ditampilkan untuk memastikan bahwa pembacaan berhasil.
-    2. Membersihkan dan Mengolah Data
-        Langkah ini bertujuan untuk membersihkan data, mengonversi format tanggal, serta menambahkan kolom baru yang diperlukan untuk analisi.
-    3. Melatih Model AI (Decision Tree)
-        Pada tahap ini, model AI dilatih menggunakan algoritma Decision Tree Classifier untuk memprediksi apakah suatu produk perlu di-restock.
-       - Menentukan fitur dan target
-       - Membagi data untuk training dan testing
-       - Melatih model
-       - Evaluasi model
-    4. Memprediksi Restock Produk
-        Setelah model AI selesai dilatih, model dapat digunakan untuk memprediksi apakah suatu produk perlu di-restock berdasarkan jumlah terjual dan stok saat ini.
-    5. Visualisasi Data
-        Tahap terakhir adalah menganalisis hasil prediksi menggunakan visualisasi data untuk memahami pola hubungan antara jumlah terjual, stok, dan keuntungan.
+1. Baca Data di Google Colab
+   Pada tahap ini, data penjualan yang dikumpulkan dalam format CSV akan dibaca menggunakan library pandas. Data ini akan ditampilkan untuk memastikan bahwa pembacaan berhasil.
+2. Membersihkan dan Mengolah Data
+   Langkah ini bertujuan untuk membersihkan data, mengonversi format tanggal, serta menambahkan kolom baru yang diperlukan untuk analisi.
+3. Melatih Model AI (Decision Tree)
+   Pada tahap ini, model AI dilatih menggunakan algoritma Decision Tree Classifier untuk memprediksi apakah suatu produk perlu di-restock.
+    - Menentukan fitur dan target
+    - Membagi data untuk training dan testing
+    - Melatih model
+    - Evaluasi model
+4. Memprediksi Restock Produk
+   Setelah model AI selesai dilatih, model dapat digunakan untuk memprediksi apakah suatu produk perlu di-restock berdasarkan jumlah terjual dan stok saat ini.
+5. Visualisasi Data
+   Tahap terakhir adalah menganalisis hasil prediksi menggunakan visualisasi data untuk memahami pola hubungan antara jumlah terjual, stok, dan keuntungan.
