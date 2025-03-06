@@ -1,10 +1,10 @@
 # Deskripsi Singkat tentang Proyek
 Proyek ini bertujuan untuk mengembangkan model AI yang dapat membantu mengotomatisasi pekerjaan di toko kelontong, seperti mengecek penjualan dan menentukan produk yang perlu di-restock. Proyek ini mengikuti tahapan pengembangan AI, yaitu:
-    ### 1. Digitalise & Collect – Mengumpulkan dan mendigitalisasi data penjualan.
-    ### 2. Transform – Membersihkan dan mempersiapkan data.
-    ### 3. Train – Melatih model AI menggunakan algoritma Machine Learning.
-    ### 4. Execute – Menggunakan model untuk melakukan prediksi restock.
-    ### 5. Provide Insights – Menganalisis hasil menggunakan visualisasi data.
+### 1. Digitalise & Collect – Mengumpulkan dan mendigitalisasi data penjualan.
+### 2. Transform – Membersihkan dan mempersiapkan data.
+### 3. Train – Melatih model AI menggunakan algoritma Machine Learning.
+### 4. Execute – Menggunakan model untuk melakukan prediksi restock.
+### 5. Provide Insights – Menganalisis hasil menggunakan visualisasi data.
 
 Proyek ini berhasil menerapkan AI untuk menganalisis data penjualan dan stok di Google Colab. Data telah dikumpulkan, diproses, dan digunakan untuk melatih model Decision Tree guna memprediksi kebutuhan restock. Evaluasi model memastikan akurasinya, sementara visualisasi scatter plot membantu mengidentifikasi pola penjualan dan keuntungan. Hasilnya, AI terbukti dapat meningkatkan efisiensi manajemen stok dan mendukung pengambilan keputusan bisnis yang lebih akurat.
 
